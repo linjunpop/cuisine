@@ -1,5 +1,5 @@
 {
-  "sha": "9a57d0001cfab0627d363187e12cd5cc9169bc8e",
+  "sha": "fb4a3122cb6ac67258a76f24bf9e35290946f0da",
   "sources": {
     "apt": {
       "locked_version": "2.0.0"
@@ -19,13 +19,8 @@
     "sudo": {
       "locked_version": "2.1.2"
     },
-    "chef-solo-search": {
-      "locked_version": "0.4.0",
-      "git": "https://github.com/edelight/chef-solo-search.git",
-      "ref": "1f79c1d86e85aa3a2b01e15f90755cf60eb66a4f"
-    },
-    "users": {
-      "locked_version": "1.5.0"
+    "vim": {
+      "locked_version": "1.0.2"
     },
     "yum": {
       "locked_version": "2.2.2"

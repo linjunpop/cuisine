@@ -19,7 +19,7 @@ Vagrant.configure("2") do |config|
 
   # Create a private network, which allows host-only access to the machine
   # using a specific IP.
-  # config.vm.network :private_network, ip: "192.168.33.10"
+  config.vm.network :private_network, ip: "192.168.33.10"
 
   # Create a public network, which generally matched to bridged network.
   # Bridged networks make the machine appear as another physical device on
@@ -84,30 +84,30 @@ Vagrant.configure("2") do |config|
   #   # You may also specify custom JSON attributes:
   #   chef.json = { :mysql_password => "foo" }
   # end
-  config.omnibus.chef_version = :latest
-  config.berkshelf.enabled = true
-  config.vm.provision :chef_solo do |chef|
-    # The following is not necessary because we use berkshelf
-    # chef.cookbooks_path = "cookbooks"
-    chef.roles_path = "roles"
-    chef.data_bags_path = "data_bags"
-
-    # For now let's just install git to check that our chef provisioning is working
-    # chef.add_recipe "git"
-
-    chef.add_role "base"
-    chef.json = {
-      :authorization => {
-        :sudo => {
-          :users => ["vagrant"],
-          :passwordless => true
-        }
-      }
-    }
-
-    # We'll use the following later
-    # chef.add_role "web"
-  end
+  # config.omnibus.chef_version = :latest
+  # config.berkshelf.enabled = true
+  # config.vm.provision :chef_solo do |chef|
+  #   # The following is not necessary because we use berkshelf
+  #   # chef.cookbooks_path = "cookbooks"
+  #   chef.roles_path = "roles"
+  #   chef.data_bags_path = "data_bags"
+  #
+  #   # For now let's just install git to check that our chef provisioning is working
+  #   # chef.add_recipe "git"
+  #
+  #   chef.add_role "base"
+  #   # chef.json = {
+  #   #   :authorization => {
+  #   #     :sudo => {
+  #   #       :users => ["vagrant"],
+  #   #       :passwordless => true
+  #   #     }
+  #   #   }
+  #   # }
+  #
+  #   # We'll use the following later
+  #   # chef.add_role "web"
+  # end
 
   # Enable provisioning with chef server, specifying the chef server URL,
   # and the path to the validation key (relative to this Vagrantfile).
