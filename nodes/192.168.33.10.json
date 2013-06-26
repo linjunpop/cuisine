@@ -4,6 +4,7 @@
     "recipe[build-essential]",
     "recipe[git]",
     "recipe[vim]",
+    "recipe[nginx]",
     "recipe[sudo]",
     "recipe[databox::postgresql]"
   ],
