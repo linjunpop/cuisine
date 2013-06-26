@@ -1,5 +1,5 @@
 {
-  "sha": "fb4a3122cb6ac67258a76f24bf9e35290946f0da",
+  "sha": "3b09546a2176d7764432e7fd8bff435be087a537",
   "sources": {
     "apt": {
       "locked_version": "2.0.0"
@@ -21,6 +21,9 @@
     },
     "vim": {
       "locked_version": "1.0.2"
+    },
+    "databox": {
+      "locked_version": "0.1.1"
     },
     "yum": {
       "locked_version": "2.2.2"

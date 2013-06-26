@@ -1,6 +1,22 @@
-{"run_list":[
-  "recipe[apt]",
-  "recipe[build-essential]",
-  "recipe[git]",
-  "recipe[vim]"
-]}
+{
+  "run_list": [
+    "recipe[apt]",
+    "recipe[build-essential]",
+    "recipe[git]",
+    "recipe[vim]",
+    "recipe[sudo]",
+    "recipe[databox::postgresql]"
+  ],
+  "databox": {
+    "db_root_password": "cuisine",
+    "databases": {
+      "postgresql": [
+        {
+          "username": "cuisine",
+          "password": "cuisine",
+          "database_name": "cuisine_production"
+        }
+      ]
+    }
+  }
+}

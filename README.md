@@ -1,5 +1,11 @@
 # Cuisine
 
+## Install cookbooks
+
+```bash
+$ berks install --path cookbooks
+```
+
 ## Vagrant
 
 ```bash
