@@ -18,5 +18,6 @@ $ vagrant up
 ```
 
 ```bash
-$ knife solo bootstrap vagrant@192.168.33.10
+$ knife solo bootstrap vagrant@example.com
 ```
+

@@ -5,6 +5,7 @@ cookbook 'build-essential'
 cookbook 'nginx'
 cookbook 'git'
 cookbook 'database'
-cookbook 'sudo'
 cookbook 'vim'
 cookbook 'databox'
+cookbook 'chruby'
+

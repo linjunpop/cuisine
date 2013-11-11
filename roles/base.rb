@@ -3,5 +3,7 @@ description "Base role applied to all nodes."
 run_list(
   "recipe[apt]",
   "recipe[build-essential]",
-  "recipe[git]"
+  "recipe[git]",
+  "recipe[vim]",
 )
+

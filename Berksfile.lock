@@ -1,5 +1,5 @@
 {
-  "sha": "3b09546a2176d7764432e7fd8bff435be087a537",
+  "sha": "feed05420ed769c1c9e627e4d368b720302f4792",
   "sources": {
     "apt": {
       "locked_version": "2.0.0"
@@ -16,14 +16,14 @@
     "database": {
       "locked_version": "1.4.0"
     },
-    "sudo": {
-      "locked_version": "2.1.2"
-    },
     "vim": {
       "locked_version": "1.0.2"
     },
     "databox": {
       "locked_version": "0.1.1"
+    },
+    "chruby": {
+      "locked_version": "0.2.2"
     },
     "yum": {
       "locked_version": "2.2.2"
@@ -57,6 +57,12 @@
     },
     "xfs": {
       "locked_version": "1.1.0"
+    },
+    "ark": {
+      "locked_version": "0.4.0"
+    },
+    "ruby_build": {
+      "locked_version": "0.8.0"
     }
   }
 }
