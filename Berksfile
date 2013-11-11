@@ -8,4 +8,5 @@ cookbook 'database'
 cookbook 'vim'
 cookbook 'databox'
 cookbook 'chruby'
+cookbook 'nodejs'
 

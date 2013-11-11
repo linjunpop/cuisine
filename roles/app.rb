@@ -2,6 +2,7 @@ name "app"
 description "App role"
 run_list(
   "recipe[chruby::system]"
+  "recipe[nodejs::install_from_package]"
 )
 override_attributes(
   chruby: {

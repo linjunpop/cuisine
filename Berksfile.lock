@@ -1,5 +1,5 @@
 {
-  "sha": "feed05420ed769c1c9e627e4d368b720302f4792",
+  "sha": "29958ee4591f8fcfad3f2df8c9f2b5013b6fa4de",
   "sources": {
     "apt": {
       "locked_version": "2.0.0"
@@ -24,6 +24,9 @@
     },
     "chruby": {
       "locked_version": "0.2.2"
+    },
+    "nodejs": {
+      "locked_version": "1.3.0"
     },
     "yum": {
       "locked_version": "2.2.2"
